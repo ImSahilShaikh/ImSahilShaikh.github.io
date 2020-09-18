@@ -246,7 +246,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   margin-top: -8% ;
-  width: 100%;
+  width: auto;
   height: 120vh;
   object-fit: fill;
   background: url("../img/takephoto.jpg") top right no-repeat;
@@ -871,8 +871,15 @@ section {
 --------------------------------------------------------------*/
 .contact .info {
   align-content: center;
-  width: 100%;
+  width: 440px;
+  margin: 0 auto;
   background: #fff;
+}
+
+@media (max-width: 440px){
+  .contact .info{
+  width: 440px;
+  }
 }
 
 .contact .info i {
